@@ -1,0 +1,5 @@
+<div class="text-center text-4xl">Liste contacts</div>
+<div *ngFor="let item of tableau">
+  <app-contact [contact]="item">{{ item }}</app-contact>
+  <br /><br /><br /><br /><br />
+</div>
